@@ -8,10 +8,9 @@ from decode_vmess import decode_vmess_to_clash, pretty_print_config
 from decode_vless import decode_vless_to_clash
 from decode_trojan import decode_trojan_to_clash
 
-api_id = '18209646'
-api_hash = 'a9eecb9f8763ed62d36636e6ee3592f0'
-bot_token = '7127462683:AAE4sT-S3qtZpvh5stRHRpAYIV7xpNTrZDI'
-
+api_id = 'api_id'
+api_hash = 'api_hash'
+bot_token = 'bot_token'
 client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 name_count = {}
